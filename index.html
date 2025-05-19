@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artesanías Palenque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#header">inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="img/car.svg" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>¡bienvenido a nuestra tieda!</span>
+                <h1>Quienes Somos</h1>
+                <p>
+                    En Artesanías Palenque, nos dedicamos a promover la artesanía maya de Palenque, ofreciendo una selección única de productos creados por artesanos locales. Nuestra pasión radica en conectar a nuestra comunidad global con la riqueza cultural y la belleza artística de nuestra región.
+                </p>
+                <div class="butons">
+                    <a href="https://www.palenquemagico.com/blogs/blog_artesanias.html" class="btn-1" target="_blank">Mas informacion</a>
+                    <a href="https://www.youtube.com/watch?v=V3zEOzUOpe4" class="btn-1" target="_blank">Ver video</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="img/bag.png" alt="">
+            </div>
+
+        </div>
+    </header>
+        <section class="oferts container">
+            
+            <div class="ofert-1 b1">
+                <div class="ofert-txt">
+                    <h3>Misión</h3>
+                    <p>Nuestra misión es preservar y difundir la artesanía maya de Palenque, ofreciendo productos de calidad que reflejen la autenticidad de nuestra cultura. Nos comprometemos a apoyar el desarrollo económico y social de nuestras comunidades locales y a promover prácticas comerciales responsables.</p>
+                    <!-- <a href="#">Leer mas</a> -->
+                </div>
+                <div class="ofert-img">
+                    <img src="img/s1.png" alt="">
+                </div>
+            </div>
+
+            <div class="ofert-1 b2">
+                <div class="ofert-txt">
+                    <h3>Visión</h3>
+                    <p>Aspiramos a convertirnos en un referente mundial en la promoción de la artesanía maya de Palenque, expandiendo nuestra presencia en el mercado global y generando oportunidades para nuestros artesanos.</p>
+                    <!-- <a href="#">Leer mas</a> -->
+                </div>
+                <div class="ofert-img">
+                    <img src="img/s2.png" alt="">
+                </div>
+            </div>
+
+            <div class="ofert-1 b3">
+                <div class="ofert-txt">
+                    <h3>políticas de calidad</h3>
+                    <p>En Artesanías Palenque, nos comprometemos a ofrecer productos auténticos y originales, garantizando calidad artesanal y prácticas comerciales responsables para satisfacer las expectativas de nuestros clientes y promover el desarrollo de nuestras comunidades.</p>
+                    <!-- <a href="#">Leer mas</a> -->
+                </div>
+                <div class="ofert-img">
+                    <img src="img/s3.png" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+        <main class="products container" id="productos">
+
+            <h2>Productos</h2>
+
+            <div class="box-container" id="lista-1">
+                
+                <div class="box">
+                    <img src="img/pr1.png" alt="">
+                    <div class="product-txt">
+                        <h3>Separador de hojas</h3>
+                        <p>Hecho en cuero y pintado a mano.</p>
+                        <p class="precio">$60</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr2.png" alt="">
+                    <div class="product-txt">
+                        <h3>Blusa bordada Azul</h3>
+                        <p>Tela de alta calidad, con bordado a mano, talla Mediana.</p>
+                        <p class="precio">$300</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr3.png" alt="">
+                    <div class="product-txt">
+                        <h3>Muñeco</h3>
+                        <p>Figura de tela representativa de un Zapatista.</p>
+                        <p class="precio">$200</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr4.png" alt="">
+                    <div class="product-txt">
+                        <h3>Escultura maya</h3>
+                        <p>Figura de barro del rey pakal, mide 20cm de altura.</p>
+                        <p class="precio">$350</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr5.png" alt="">
+                    <div class="product-txt">
+                        <h3>Bolso Grande</h3>
+                        <p>Bolso tejido con fibras naturales de alta calidad.</p>
+                        <p class="precio">$400</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr6.png" alt="">
+                    <div class="product-txt">
+                        <h3>Cartera de cuero</h3>
+                        <p>Con bordado por la parte exterior y cuero.</p>
+                        <p class="precio">$260</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr7.png" alt="">
+                    <div class="product-txt">
+                        <h3>Sombrero Pintado</h3>
+                        <p>Sombrero rigido pintado a mano,con tira bordada.</p>
+                        <p class="precio">$550</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr8.png" alt="">
+                    <div class="product-txt">
+                        <h3>Blusa bordada negra</h3>
+                        <p>Tela de alta calidad, con bordado a mano, talla Chica.</p>
+                        <p class="precio">$300</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr9.png" alt="">
+                    <div class="product-txt">
+                        <h3>Morral</h3>
+                        <p>Morral de tela con detalles bordados.</p>
+                        <p class="precio">$200</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr10.png" alt="">
+                    <div class="product-txt">
+                        <h3>Monedero</h3>
+                        <p>Hecho de cuero y por la parte exterior bordado.</p>
+                        <p class="precio">$100</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr11.png" alt="">
+                    <div class="product-txt">
+                        <h3>Cartera Bordada</h3>
+                        <p>Hecha con tela de alta calida.</p>
+                        <p class="precio">$250</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr12.png" alt="">
+                    <div class="product-txt">
+                        <h3>Blusa bordada roja</h3>
+                        <p>Tela de alta calidad, con bordado a mano, talla Mediana.</p>
+                        <p class="precio">$300</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr13.png" alt="">
+                    <div class="product-txt">
+                        <h3>Abanico artesanal</h3>
+                        <p>Hecho con fibras naturalez.</p>
+                        <p class="precio">$150</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="13">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr14.png" alt="">
+                    <div class="product-txt">
+                        <h3>Silbato Maya</h3>
+                        <p>Este silvato emula el sonido realizado por el jaguar</p>
+                        <p class="precio">$150</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr15.png" alt="">
+                    <div class="product-txt">
+                        <h3>Blusa bordada blanca</h3>
+                        <p>Tela de alta calidad, con bordado a mano, talla chica.</p>
+                        <p class="precio">$300</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="15">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr16.png" alt="">
+                    <div class="product-txt">
+                        <h3>Morral</h3>
+                        <p>Morral de tela con detalles bordados</p>
+                        <p class="precio">$350</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="16">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr17.png" alt="">
+                    <div class="product-txt">
+                        <h3>Mochila</h3>
+                        <p>Mochila grande de cuero con bordado.</p>
+                        <p class="precio">$600</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="17">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr18.png" alt="">
+                    <div class="product-txt">
+                        <h3>Monedero</h3>
+                        <p>Hecho de cuero y por la parte exterior bordado.</p>
+                        <p class="precio">$100</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="18">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr19.png" alt="">
+                    <div class="product-txt">
+                        <h3>Blusa bordada verde</h3>
+                        <p>Tela de alta calidad, con bordado a mano, talla Grande.</p>
+                        <p class="precio">$300</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="19">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="img/pr20.png" alt="">
+                    <div class="product-txt">
+                        <h3>Cojin bordado</h3>
+                        <p>Bordado a mano representativo de un jaguar.</p>
+                        <p class="precio">$350</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="20">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="btn-2" id="load-more">Cargar mas</div>
+        </main>
+
+        <section class="testimonial container">
+            <span>Reseñas</span>
+            <h2>Que opinan nuestros clientes</h2>
+            <div class="testimonial-content">
+                <div class="testimonial-1">
+                    <p>
+                        ¡Qué hermosa cartera bordada de Artesanías Palenque! La artesanía es impresionante, cada detalle muestra la habilidad y el arte de los artesanos mayas. Además de ser estéticamente hermosa, la cartera es también muy funcional y de alta calidad. ¡Definitivamente una compra que vale la pena!
+                    </p>
+                    <img src="img/starts.png" alt="">
+                    <h4>Laura Arevalo</h4>
+                </div>
+                <div class="testimonial-1">
+                    <p>
+                        ¡Me encanta mi nuevo sombrero pintado de Artesanías Palenque! La calidad del trabajo es excepcional, y los colores vibrantes y el diseño único hacen que el sombrero sea una verdadera obra de arte. Además, es cómodo de llevar y perfecto para protegerse del sol con estilo. ¡Sin duda una adición imprescindible para mi colección de accesorios!
+                    </p>
+                    <img src="img/starts.png" alt="">
+                    <h4>Emilio Jimenez</h4>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="footer">
+            <div class="footer-content container">
+                <div class="link">
+                    <h3>Redes sociales</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100076659834145" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/vive_palenque/?hl=es" target="_blank">Instagram</a></li>
+
+                    </ul>
+                </div>
+                <div class="link">
+                    <h3>Contactanos</h3>
+                    <ul>
+                        <li><a href="#">Numero</a></li>
+                        <li><a href="#">Escribenos</a></li>
+                        <li><a href="#">Dudas</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
